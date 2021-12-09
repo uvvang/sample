@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  background-image: url(img/IMG_frens.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header {
+  height: 80px;
+  width: 100%;
+  background-color: rgb(17, 44, 44);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 20px;
+  padding: 0 80px;
+  color: #fff;
+  text-transform: uppercase;
+}
+ul {
+  display: flex;
+  margin-right: 40px;
+}
+ul li {
+  margin: 0 8px;
+}
+ul li a {
+  align-items: center;
+  color: #fff;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  padding: 7px 10px;
+  border-radius: 5px;
+}
+a.active,
+a:hover {
+  border: 1px solid white;
+  transition: 0.5s;
+}
+.content {
+}
+h1 {
+  text-align: center;
+  padding-top: 50px;
+  font-family: cursive;
+}
+.butt {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+#btn {
+  background-color: rgb(17, 44, 44);
+  color: #fff;
+  padding: 7px 10px;
+  border-radius: 3px;
+  border: 1px solid white;
+}
